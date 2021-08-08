@@ -141,6 +141,7 @@ public Hospede insert(Hospede hospede) throws HospedeException {
 		} 
 		finally {
 			DB.closeStatment(st);
+			
 		}
 	}
 
